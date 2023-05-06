@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - obstacle
+  - void
+  - cheese
+  - finishStairs
+  - platformFinish1x
+  - platformFinish2x
+  - platformFinish4x
+  - platformFinish6x
+  - platformFinish10x
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - void
+  - Water
+  - UI
+  - finish
+  - cheese
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
