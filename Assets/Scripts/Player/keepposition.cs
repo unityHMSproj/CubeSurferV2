@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class keepposition : MonoBehaviour
 {
-    private void Update()
+
+    public void setPos(float newY)
     {
-        transform.position = new Vector3(transform.position.x, 31.32f, transform.position.z);
+        transform.position = new Vector3(transform.position.x, newY, transform.position.z);
     }
 }

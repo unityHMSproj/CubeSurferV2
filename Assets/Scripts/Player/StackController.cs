@@ -6,12 +6,14 @@ public class StackController : MonoBehaviour
     [SerializeField] private GameObject RetryButton;
     [SerializeField] private GameObject NextLevelButton;
     [SerializeField] private GameObject menubutton;
+    [SerializeField] private GameObject trailObj;
     public List<GameObject> cubelist = new List<GameObject>();
     private GameObject lastCube;
     private RaycastHit hit;
     private bool isOver;
     public bool isFinished;
     public AudioSource collectSound;
+    private keepposition trail;
 
     [Header("Camera")]
     [SerializeField] private Camera cam;
@@ -20,6 +22,7 @@ public class StackController : MonoBehaviour
 
     void Start()
     {
+        trailObj.transform.position = new Vector3(trailObj.transform.position.x,(cubelist[cubelist.Count-1].transform.position.y-0.1f),trailObj.transform.position.z);
         UpdateLastCube();
     }
 
@@ -30,15 +33,12 @@ public class StackController : MonoBehaviour
 
         if (isFinished)
         {
-
             cam.transform.RotateAround(centerRotate.transform.position, axis, 0.5f);
-
         }
     }
 
     public void PushStack(GameObject gameobj)
     {
-
         transform.position = new Vector3(transform.position.x, transform.position.y + 2f, transform.position.z);
         gameobj.transform.position = new Vector3(lastCube.transform.position.x, lastCube.transform.position.y - 2f, lastCube.transform.position.z);
         gameobj.transform.SetParent(transform);
@@ -47,6 +47,8 @@ public class StackController : MonoBehaviour
         gameobj.GetComponent<BoxCollider>().material.bounciness = 0f;
         cubelist.Add(gameobj);
         UpdateLastCube();
+        // transform.position.y-((cubelist.count-1)*30)
+       trailObj.transform.position = new Vector3(trailObj.transform.position.x,(cubelist[cubelist.Count-1].transform.position.y-0.1f),trailObj.transform.position.z);
     }
 
     public void PopStack(GameObject gameobj)
@@ -55,6 +57,7 @@ public class StackController : MonoBehaviour
         gameobj.transform.parent = null;
         cubelist.Remove(gameobj);
         UpdateLastCube();
+        trailObj.transform.position = new Vector3(trailObj.transform.position.x,(cubelist[cubelist.Count-1].transform.position.y-0.1f),trailObj.transform.position.z);
     }
 
     public void VoidStack(GameObject gameobj)
@@ -125,8 +128,6 @@ public class StackController : MonoBehaviour
                 if (!isFinished)
                 {
                     finishGame(4);
-
-
                 }
             }
             else if (hit.transform.tag == "platformFinish6x")

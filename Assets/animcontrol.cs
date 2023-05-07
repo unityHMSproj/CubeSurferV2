@@ -7,17 +7,21 @@ public class animcontrol : MonoBehaviour
     [SerializeField] private float startDelay;
     public GameObject playButton;
     public GameObject settingsButton;
+    public GameObject selectCharBtn;
     public GameObject exitButton;
 
 
     private Animator animator1;
     private Animator animator2;
     private Animator animator3;
+    private Animator animator4;
     private void Awake()
     {
         animator1 = playButton.GetComponent<Animator>();
         animator2 = settingsButton.GetComponent<Animator>();
-        animator3 = exitButton.GetComponent<Animator>();
+        animator3 = selectCharBtn.GetComponent<Animator>();
+        animator4 = exitButton.GetComponent<Animator>();
+
 
         StartCoroutine(animate());
     }
@@ -32,6 +36,7 @@ public class animcontrol : MonoBehaviour
         yield return new WaitForSeconds(startDelay);
 
         animator3.SetTrigger("go");
-
+        yield return new WaitForSeconds(startDelay);
+        animator4.SetTrigger("go");
     }
 }

@@ -73,6 +73,8 @@ public class CubeController : MonoBehaviour
                 stackControllerobj.GetComponent<StackController>().PopStack(gameObject);
             }
 
+            
+
         }
     }
 

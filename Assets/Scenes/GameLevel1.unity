@@ -21051,8 +21051,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: -0.114447415, y: 0.13723108, z: -0.015960015, w: -0.98377573}
-  m_LocalPosition: {x: 6.0643935, y: 46.06066, z: -818.641}
+  m_LocalRotation: {x: -0.19112207, y: -0.0067775967, z: 0.0013178414, w: -0.98154205}
+  m_LocalPosition: {x: -0.4806438, y: 39.43424, z: -812.21796}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -46422,6 +46422,7 @@ MonoBehaviour:
   RetryButton: {fileID: 743645395}
   NextLevelButton: {fileID: 898106703}
   menubutton: {fileID: 579159463}
+  trailObj: {fileID: 2112729313}
   cubelist:
   - {fileID: 2351636282968188791}
   isFinished: 0
