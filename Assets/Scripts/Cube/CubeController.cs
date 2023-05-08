@@ -88,7 +88,7 @@ public class CubeController : MonoBehaviour
             {
                 if (hit.transform.name == "finish1")
                 {
-                    mouse.GetComponent<Animator>().SetBool("isFinished", true);
+                    // mouse.GetComponent<Animator>().SetBool("isFinished", true);
 
                 }
                 if (hit.transform.name == "finish2")
