@@ -13,6 +13,8 @@ TagManager:
   - platformFinish4x
   - platformFinish6x
   - platformFinish10x
+  - locked
+  - open
   layers:
   - Default
   - TransparentFX
