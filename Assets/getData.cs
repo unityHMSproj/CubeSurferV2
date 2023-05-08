@@ -8,10 +8,6 @@ public class getData : MonoBehaviour
 
     private void Start()
     {
-        // PlayerPrefs.SetInt("cheese", 0);
-    }
-    private void Update()
-    {
         text.SetText((PlayerPrefs.GetInt("cheese")).ToString());
     }
 }
