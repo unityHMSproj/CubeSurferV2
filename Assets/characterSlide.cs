@@ -5,33 +5,33 @@ using UnityEngine;
 public class characterSlide : MonoBehaviour
 {
     public List<GameObject> charList;
-    private int counter;
+    [SerializeField] private int id;
     void Start()
     {
-        counter = 0;
+        id = 0;
     }
 
     public void slideRight()
     {
-        if (counter < 7)
+        if (id < 7)
         {
             Debug.Log("sa");
-            counter++;
+            id++;
             foreach (GameObject model in charList)
             {
-                model.transform.position = new Vector3(model.transform.position.x + 4.80f, model.transform.position.y, model.transform.position.z);
+                model.transform.position = new Vector3(model.transform.position.x + 5f, model.transform.position.y, model.transform.position.z);
             }
         }
     }
     public void slideLeft()
     {
-        if (counter > 0)
+        if (id > 0)
         {
-            counter--;
+            id--;
 
             foreach (GameObject model in charList)
             {
-                model.transform.position = new Vector3(model.transform.position.x - 4.80f, model.transform.position.y, model.transform.position.z);
+                model.transform.position = new Vector3(model.transform.position.x - 5f, model.transform.position.y, model.transform.position.z);
             }
         }
     }
