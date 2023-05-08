@@ -22,7 +22,7 @@ public class StackController : MonoBehaviour
 
     void Start()
     {
-        trailObj.transform.position = new Vector3(trailObj.transform.position.x,(cubelist[cubelist.Count-1].transform.position.y-0.1f),trailObj.transform.position.z);
+        trailObj.transform.position = new Vector3(trailObj.transform.position.x, (cubelist[cubelist.Count - 1].transform.position.y - 0.1f), trailObj.transform.position.z);
         UpdateLastCube();
     }
 
@@ -48,7 +48,7 @@ public class StackController : MonoBehaviour
         cubelist.Add(gameobj);
         UpdateLastCube();
         // transform.position.y-((cubelist.count-1)*30)
-       trailObj.transform.position = new Vector3(trailObj.transform.position.x,(cubelist[cubelist.Count-1].transform.position.y-0.1f),trailObj.transform.position.z);
+        trailObj.transform.position = new Vector3(trailObj.transform.position.x, (cubelist[cubelist.Count - 1].transform.position.y - 0.1f), trailObj.transform.position.z);
     }
 
     public void PopStack(GameObject gameobj)
@@ -57,7 +57,7 @@ public class StackController : MonoBehaviour
         gameobj.transform.parent = null;
         cubelist.Remove(gameobj);
         UpdateLastCube();
-        trailObj.transform.position = new Vector3(trailObj.transform.position.x,(cubelist[cubelist.Count-1].transform.position.y-0.1f),trailObj.transform.position.z);
+        trailObj.transform.position = new Vector3(trailObj.transform.position.x, (cubelist[cubelist.Count - 1].transform.position.y - 0.1f), trailObj.transform.position.z);
     }
 
     public void VoidStack(GameObject gameobj)
@@ -100,7 +100,10 @@ public class StackController : MonoBehaviour
                 {
                     GameOver.GetComponent<Animator>().SetTrigger("isgameOver");
                     RetryButton.GetComponent<Animator>().SetTrigger("isGameOver");
-                    Time.timeScale = 0f;
+                    GetComponent<MovementController>().VerticalMovementSpeed = 0;
+                    GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionX;
+                    GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionY;
+                    GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionY;
                     isOver = true;
                     cam.GetComponent<CameraFollow>().finished = true;
                     menubutton.gameObject.SetActive(true);
@@ -154,11 +157,27 @@ public class StackController : MonoBehaviour
             Destroy(other.transform.gameObject);
         }
 
-        if (other.transform.name=="finish2"){
+        if (other.transform.name == "finish2")
+        {
             if (!isFinished)
-                {
-                    finishGame(10);
-                }
+            {
+                finishGame(10);
+            }
+        }
+        if (other.transform.name == "void")
+        {
+            if (!isOver)
+            {
+                GameOver.GetComponent<Animator>().SetTrigger("isgameOver");
+                RetryButton.GetComponent<Animator>().SetTrigger("isGameOver");
+                GetComponent<MovementController>().VerticalMovementSpeed = 0;
+                GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionX;
+                GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionY;
+                GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionY;
+                isOver = true;
+                cam.GetComponent<CameraFollow>().finished = true;
+                menubutton.gameObject.SetActive(true);
+            }
         }
     }
 

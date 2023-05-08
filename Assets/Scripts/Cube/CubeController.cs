@@ -95,7 +95,6 @@ public class CubeController : MonoBehaviour
                 {
                     if (!stackControllerobj.GetComponent<StackController>().isFinished)
                     {
-
                         stackControllerobj.GetComponent<StackController>().finishGame(10);
                     }
                 }

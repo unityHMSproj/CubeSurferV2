@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject model;
     [SerializeField] private Vector3 modelDefaultPos;
     [SerializeField] private GameObject Player;
+    public sceneLoader loader;
+
     public static int Points;
 
     void Start()
@@ -36,7 +38,9 @@ public class GameManager : MonoBehaviour
     }
 
     public void PassLevel1()
+
     {
+        loader.LoadNextLevel();
         SceneManager.LoadScene(2);
     }
     public void PassLevel2()

@@ -5,7 +5,10 @@ using TMPro;
 public class gamemanagerSelect : MonoBehaviour
 {
     public TextMeshProUGUI text;
-    private void Start() {
+    public sceneLoader loader;
+
+    private void Start()
+    {
         text.SetText((PlayerPrefs.GetInt("cheese")).ToString());
     }
     public void goBack()
@@ -14,6 +17,6 @@ public class gamemanagerSelect : MonoBehaviour
     }
     public void play()
     {
-        SceneManager.LoadScene(2);
+        loader.LoadNextLevel();
     }
 }
