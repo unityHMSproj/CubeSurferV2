@@ -25,7 +25,6 @@ public class CubeController : MonoBehaviour
     private void Start()
     {
         rand = Random.Range(0, popSoundList.Count);
-        Debug.Log(popSoundList.Count);
     }
     // Update is called once per frame
     void FixedUpdate()
@@ -54,7 +53,6 @@ public class CubeController : MonoBehaviour
         || Physics.Raycast(new Vector3(transform.position.x, transform.position.y + 0.9f, transform.position.z), direction, out hit, 1f)
         || Physics.Raycast(new Vector3(transform.position.x, transform.position.y - 0.9f, transform.position.z), direction, out hit, 1f))
         {
-            // Debug.Log("raycash hitted!");
             if (!isPushed)
             {
                 setDir();

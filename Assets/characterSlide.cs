@@ -4,8 +4,17 @@ using UnityEngine;
 
 public class characterSlide : MonoBehaviour
 {
+    public static characterSlide instance;
     public List<GameObject> charList;
-    [SerializeField] private int id;
+    public int id;
+    void Awake()
+    {
+        //Singleton method
+        if (instance == null)
+        {
+            instance = this;
+        }
+    }
     void Start()
     {
         id = 0;
@@ -15,7 +24,6 @@ public class characterSlide : MonoBehaviour
     {
         if (id < 7)
         {
-            Debug.Log("sa");
             id++;
             foreach (GameObject model in charList)
             {
@@ -25,6 +33,7 @@ public class characterSlide : MonoBehaviour
     }
     public void slideLeft()
     {
+
         if (id > 0)
         {
             id--;

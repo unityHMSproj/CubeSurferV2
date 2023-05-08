@@ -1,22 +1,27 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using System.Collections;
+using System.Collections.Generic;
 public class GameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
 
     [SerializeField] GameObject startmenu;
     [SerializeField] GameObject gamemenu;
-
+    [SerializeField] private GameObject model;
+    [SerializeField] private Vector3 modelDefaultPos;
+    [SerializeField] private GameObject Player;
     public static int Points;
 
     void Start()
     {
+        int charId = characterSlide.instance.id;
+
+        model = GameObject.Find(charId.ToString());
+        modelDefaultPos = model.transform.position;
+        model.transform.position = new Vector3(Player.transform.position.x, Player.transform.position.y + 1, Player.transform.position.z);
+        model.transform.SetParent(Player.transform);
         Time.timeScale = 0f;
     }
-
-    // Update is called once per frame
-    void Update() { }
 
     public void PressStart()
     {
@@ -28,7 +33,6 @@ public class GameManager : MonoBehaviour
     public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-
     }
 
     public void PassLevel1()

@@ -39,7 +39,6 @@ public class CameraFollow : MonoBehaviour
             transform.Rotate(rotateX, 0, 0);
 
 
-            Debug.Log(transform.rotation.x);
         }
 
 
