@@ -593,7 +593,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 636438924}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 231}
+  m_LocalPosition: {x: 0, y: 0, z: 766}
   m_LocalScale: {x: 841.7997, y: 1499.1409, z: 106.129326}
   m_Children:
   - {fileID: 1209756301}
@@ -1351,7 +1351,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 354680912}
         m_TargetAssemblyTypeName: characterSlide, Assembly-CSharp
-        m_MethodName: slideLeft
+        m_MethodName: slideRight
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1483,7 +1483,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 354680912}
         m_TargetAssemblyTypeName: characterSlide, Assembly-CSharp
-        m_MethodName: slideRight
+        m_MethodName: slideLeft
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
