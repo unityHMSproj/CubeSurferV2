@@ -1,12 +1,11 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class sceneLoader : MonoBehaviour
 {
     public Animator transition;
-    public float transitionTime = 0.4f;
+    public float transitionTime = 1f;
     public void LoadScene(string mode)
     {
         if (mode == "mainmenu")
