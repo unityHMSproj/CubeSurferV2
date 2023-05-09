@@ -13,10 +13,11 @@ public class gamemanagerSelect : MonoBehaviour
     }
     public void goBack()
     {
-        SceneManager.LoadScene(0);
+        loader.LoadScene("mainmenu");
+
     }
     public void play()
     {
-        loader.LoadNextLevel();
+        loader.LoadScene("next");
     }
 }

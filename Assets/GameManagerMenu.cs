@@ -4,10 +4,13 @@ using UnityEngine.SceneManagement;
 public class GameManagerMenu : MonoBehaviour
 {
     public sceneLoader loader;
-    public void startGame(){
-        loader.LoadNextLevel();
+    public void startGame()
+    {
+        loader.LoadScene("next");
+
     }
-    public void exitGame(){
+    public void exitGame()
+    {
         Application.Quit();
     }
 }

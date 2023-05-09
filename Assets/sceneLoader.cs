@@ -6,11 +6,29 @@ using UnityEngine.SceneManagement;
 public class sceneLoader : MonoBehaviour
 {
     public Animator transition;
-    public float transitionTime = 1f;
-    public void LoadNextLevel()
+    public float transitionTime = 0.4f;
+    public void LoadScene(string mode)
     {
-        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+        if (mode == "mainmenu")
+        {
+            StartCoroutine(LoadLevel(0));
+        }
+        if (mode == "previous")
+        {
+            StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex - 1));
+        }
+        if (mode == "next")
+        {
+            StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+        }
+        if (mode == "restart")
+        {
+            StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex));
+        }
+
+
     }
+
 
     IEnumerator LoadLevel(int levelIndex)
     {

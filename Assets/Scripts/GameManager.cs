@@ -34,24 +34,26 @@ public class GameManager : MonoBehaviour
 
     public void RestartGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        loader.LoadScene("restart");
+
     }
 
     public void PassLevel1()
 
     {
-        loader.LoadNextLevel();
-        SceneManager.LoadScene(2);
+        loader.LoadScene("next");
     }
     public void PassLevel2()
     {
-        SceneManager.LoadScene(1);
+        loader.LoadScene("previous");
+
     }
 
     public void mainmenu()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene(0);
+        loader.LoadScene("mainmenu");
+
     }
 
     public void pausegame()

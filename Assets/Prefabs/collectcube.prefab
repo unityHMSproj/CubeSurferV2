@@ -114,7 +114,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 2715809438517174595, guid: a905f44af2b91b1488b24b111ed66c6b, type: 3}
   mouse: {fileID: 0}
   Last: 0
   collectSound: {fileID: 0}
