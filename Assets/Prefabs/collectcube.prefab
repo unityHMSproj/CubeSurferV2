@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2007792340208663502}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 2, y: 36.014347, z: -610}
+  m_LocalPosition: {x: 2.5, y: 36.014347, z: -610}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 0}
@@ -115,7 +115,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   stackControllerobj: {fileID: 2715809438517174595, guid: a905f44af2b91b1488b24b111ed66c6b, type: 3}
-  mouse: {fileID: 0}
   Last: 0
   collectSound: {fileID: 0}
   popSoundList: []
