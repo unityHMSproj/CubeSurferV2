@@ -377,7 +377,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 310781142}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 16f78330d27815a4a8c36d5844d5ecb1, type: 2}
   m_CullingMode: 0
@@ -1708,7 +1708,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4633657298383071474, guid: 1d2973a2846c5da4b885617a67c0a79d, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4633657298383071475, guid: 1d2973a2846c5da4b885617a67c0a79d, type: 3}
       propertyPath: m_Pivot.x
