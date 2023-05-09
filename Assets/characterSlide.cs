@@ -26,7 +26,7 @@ public class characterSlide : MonoBehaviour
 
     public void slideRight()
     {
-        if (id < 7)
+        if (id < 8)
         {
 
             id++;
@@ -66,5 +66,6 @@ public class characterSlide : MonoBehaviour
 
 
     }
+
 }
 
