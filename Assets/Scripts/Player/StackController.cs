@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 public class StackController : MonoBehaviour
@@ -101,9 +102,7 @@ public class StackController : MonoBehaviour
                     GameOver.GetComponent<Animator>().SetTrigger("isgameOver");
                     RetryButton.GetComponent<Animator>().SetTrigger("isGameOver");
                     GetComponent<MovementController>().VerticalMovementSpeed = 0;
-                    GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionX;
-                    GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionY;
-                    GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionY;
+
                     isOver = true;
                     cam.GetComponent<CameraFollow>().finished = true;
                     menubutton.gameObject.SetActive(true);
@@ -168,19 +167,26 @@ public class StackController : MonoBehaviour
         {
             if (!isOver)
             {
-                GameOver.GetComponent<Animator>().SetTrigger("isgameOver");
-                RetryButton.GetComponent<Animator>().SetTrigger("isGameOver");
-                GetComponent<MovementController>().VerticalMovementSpeed = 0;
-                GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionX;
-                GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionY;
-                GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionY;
-                isOver = true;
-                cam.GetComponent<CameraFollow>().finished = true;
-                menubutton.gameObject.SetActive(true);
+                StartCoroutine(voidFail());
             }
         }
     }
 
+    public IEnumerator voidFail()
+    {
+        //disable collider,
+        //wait for 1 sec
+        //then finish
+        GetComponent<BoxCollider>().enabled = false;
+        yield return new WaitForSeconds(1f);
+        GameOver.GetComponent<Animator>().SetTrigger("isgameOver");
+        RetryButton.GetComponent<Animator>().SetTrigger("isGameOver");
+        GetComponent<MovementController>().VerticalMovementSpeed = 0;
+
+        isOver = true;
+        cam.GetComponent<CameraFollow>().finished = true;
+        menubutton.gameObject.SetActive(true);
+    }
     public void finishGame(int multiplier)
     {
         GetComponent<MovementController>().VerticalMovementSpeed = 0;

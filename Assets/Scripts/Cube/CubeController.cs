@@ -8,7 +8,6 @@ public class CubeController : MonoBehaviour
     [SerializeField] private LayerMask finishLM;
     [SerializeField] private GameObject stackControllerobj;
     [Header("Animation")]
-    [SerializeField] private GameObject mouse;
     private Vector3 direction = Vector3.back;
     private RaycastHit hit;
     [Header("Bool")]
