@@ -9,7 +9,6 @@ public class characterSlide : MonoBehaviour
 
     public GameObject lockscreen;
 
-    public float x_coor;
     public int id;
     void Awake()
     {
@@ -22,7 +21,6 @@ public class characterSlide : MonoBehaviour
     void Start()
     {
         id = 0;
-        x_coor = lockscreen.transform.position.x;
 
     }
 
@@ -53,18 +51,20 @@ public class characterSlide : MonoBehaviour
         }
     }
 
-     public void locked(GameObject model){   //karakterler bende kayıyor onun harici sorun yok ama belki sendede siyah ekran kaymıs olabılır
+    public void locked(GameObject model)
+    {   //karakterler bende kayıyor onun harici sorun yok ama belki sendede siyah ekran kaymıs olabılır
 
 
         if (model.CompareTag("locked"))
-            {
-            lockscreen.transform.position = new Vector3(x_coor - 7f, lockscreen.transform.position.y, lockscreen.transform.position.z);
+        {
+            lockscreen.gameObject.SetActive(true);
         }
         else
-            {
-            lockscreen.transform.position = new Vector3(x_coor , lockscreen.transform.position.y, lockscreen.transform.position.z);
-                }
-    
+        {
+            lockscreen.gameObject.SetActive(false);
+        }
 
-}}
+
+    }
+}
 

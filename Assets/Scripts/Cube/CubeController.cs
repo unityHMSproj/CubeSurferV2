@@ -24,6 +24,7 @@ public class CubeController : MonoBehaviour
 
     private void Start()
     {
+        stackControllerobj = GameObject.Find("Player");
         rand = Random.Range(0, popSoundList.Count);
     }
     // Update is called once per frame
@@ -71,7 +72,7 @@ public class CubeController : MonoBehaviour
                 stackControllerobj.GetComponent<StackController>().PopStack(gameObject);
             }
 
-            
+
 
         }
     }
