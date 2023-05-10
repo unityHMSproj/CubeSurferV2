@@ -37,7 +37,7 @@ public class characterSlide : MonoBehaviour
                 unlockedcount++;
             }
         }
-        charCount.text = unlockedcount.ToString();
+        charCount.text = unlockedcount.ToString() + " of 9 characters are unlocked";
     }
     //3 4 5 6 7 locked
 
@@ -122,7 +122,7 @@ public class characterSlide : MonoBehaviour
 
 
     }
-    
+
 
 }
 

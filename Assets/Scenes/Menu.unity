@@ -154,6 +154,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loader: {fileID: 836976528}
   card: {fileID: 165813381}
+  playAnimator: {fileID: 1014242492}
+  exitAnimator: {fileID: 1837095439}
 --- !u!4 &139647144
 Transform:
   m_ObjectHideFlags: 0
@@ -201,7 +203,7 @@ RectTransform:
   - {fileID: 1590339273}
   - {fileID: 1436181063}
   m_Father: {fileID: 310781146}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -531,9 +533,9 @@ RectTransform:
   - {fileID: 1014242491}
   - {fileID: 1487716277}
   - {fileID: 1837095435}
-  - {fileID: 582991951}
   - {fileID: 2129299426}
   - {fileID: 165813382}
+  - {fileID: 582991951}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1021,7 +1023,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: c3262ee5be33f7e4c8056e8e20b6bdfb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1045,6 +1047,7 @@ GameObject:
   - component: {fileID: 1014242495}
   - component: {fileID: 1014242494}
   - component: {fileID: 1014242493}
+  - component: {fileID: 1014242492}
   m_Layer: 5
   m_Name: Play
   m_TagString: Untagged
@@ -1069,9 +1072,28 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 181, y: -340}
+  m_AnchoredPosition: {x: 639, y: -334}
   m_SizeDelta: {x: 400, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &1014242492
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014242490}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 42c046a33e43fd04194bf9f029766c6c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &1014242493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1857,6 +1879,7 @@ GameObject:
   - component: {fileID: 1837095438}
   - component: {fileID: 1837095437}
   - component: {fileID: 1837095436}
+  - component: {fileID: 1837095439}
   m_Layer: 5
   m_Name: Exit
   m_TagString: Untagged
@@ -1881,7 +1904,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -161, y: -579}
+  m_AnchoredPosition: {x: -649, y: -578}
   m_SizeDelta: {x: 400, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1837095436
@@ -1978,6 +2001,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1837095434}
   m_CullTransparentMesh: 1
+--- !u!95 &1837095439
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837095434}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8eaba755508964843822d4c004f5b520, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1952024758
 GameObject:
   m_ObjectHideFlags: 0
@@ -2084,7 +2126,7 @@ RectTransform:
   - {fileID: 1372652586}
   - {fileID: 890731433}
   m_Father: {fileID: 310781146}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -2257,7 +2299,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4633657298383071475, guid: 1d2973a2846c5da4b885617a67c0a79d, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4633657298383071475, guid: 1d2973a2846c5da4b885617a67c0a79d, type: 3}
       propertyPath: m_AnchorMax.x
