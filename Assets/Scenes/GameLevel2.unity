@@ -774,9 +774,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &26606672
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1095,9 +1092,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &46462898
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1380,9 +1374,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &61020951
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2403,9 +2394,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &96705466
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2724,9 +2712,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &102553675
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3186,9 +3171,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &108188454
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3996,9 +3978,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &156536038
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5233,9 +5212,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &193903032
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5556,9 +5532,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &209010353
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5672,9 +5645,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &209305280
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5807,9 +5777,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &212490625
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6092,9 +6059,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &223917522
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6397,9 +6361,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &227557389
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9273,9 +9234,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &337672977
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10069,9 +10027,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &359937235
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10281,9 +10236,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &368535427
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10704,9 +10656,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &386283744
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10944,9 +10893,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &393358762
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11632,9 +11578,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &416062942
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11967,9 +11910,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &432879967
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12290,9 +12230,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &438346566
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12968,9 +12905,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &473682369
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13254,9 +13188,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &484709072
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14139,9 +14070,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &530484631
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15225,9 +15153,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &562181069
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15415,9 +15340,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &568846499
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16533,9 +16455,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &610770151
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16884,9 +16803,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &624079566
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17000,9 +16916,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &624999127
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18224,9 +18137,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &664039460
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18605,9 +18515,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &671401065
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19131,9 +19038,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &708519997
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20086,9 +19990,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &757222515
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20767,9 +20668,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &773769777
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21622,9 +21520,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &812699192
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22150,7 +22045,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_RootOrder
-      value: 261
+      value: 237
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22158,7 +22053,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 32.500652
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_LocalPosition.z
@@ -22766,9 +22661,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &878292048
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22956,9 +22848,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &886646730
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23168,9 +23057,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &889612752
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25300,9 +25186,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &963796677
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25805,9 +25688,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &983853717
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26017,9 +25897,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &987416109
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26253,9 +26130,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &990324555
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26465,9 +26339,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &993053960
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26884,9 +26755,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1007132903
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27771,9 +27639,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1027341025
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28153,9 +28018,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1035505941
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28703,9 +28565,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1047351639
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28930,9 +28789,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1056790917
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29481,9 +29337,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1078117753
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30206,9 +30059,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1101929319
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30504,9 +30354,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1108128295
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30972,9 +30819,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1122086706
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32106,9 +31950,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1165005017
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33023,9 +32864,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1196077857
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34203,9 +34041,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1255923849
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35127,9 +34962,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1290134898
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35317,9 +35149,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1301035548
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35433,9 +35262,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1302085084
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35944,9 +35770,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1329665344
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36134,9 +35957,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1333002482
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36760,9 +36580,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1343940108
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -38248,9 +38065,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1386540885
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -38556,9 +38370,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1389988369
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -38695,9 +38506,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1394602938
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -39780,9 +39588,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1465573679
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -41933,9 +41738,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1536466738
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -42495,9 +42297,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1547922844
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -42781,9 +42580,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1561838319
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -43163,9 +42959,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1570602131
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -43352,9 +43145,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1597996178
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -43378,7 +43168,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_RootOrder
-      value: 262
+      value: 238
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -43386,7 +43176,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 32.500652
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_LocalPosition.z
@@ -43615,9 +43405,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1603865390
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -43920,9 +43707,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1625634767
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -44324,9 +44108,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1633247460
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -44659,9 +44440,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1646156206
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -44871,9 +44649,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1653100591
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -45083,9 +44858,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1676388795
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -45360,9 +45132,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1686707032
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -45476,9 +45245,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1693312501
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -46054,9 +45820,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1703865416
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -46609,9 +46372,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1722207955
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -46914,9 +46674,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1729115737
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -47126,9 +46883,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1735108832
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -48436,9 +48190,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1789295902
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -48552,9 +48303,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1791854631
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -49472,7 +49220,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_RootOrder
-      value: 260
+      value: 236
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -49480,7 +49228,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 32.500652
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_LocalPosition.z
@@ -49854,9 +49602,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1832433877
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -50066,9 +49811,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1833119884
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -50278,9 +50020,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1843861870
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -51617,9 +51356,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1873991587
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -51925,9 +51661,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1882807426
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -52430,9 +52163,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1899932660
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -54410,9 +54140,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &1964592413
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -54436,7 +54163,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_RootOrder
-      value: 259
+      value: 235
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -54444,7 +54171,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 32.500652
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_LocalPosition.z
@@ -55773,9 +55500,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &2002143086
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -55985,9 +55709,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &2004124293
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -56443,9 +56164,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &2018698250
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -57178,9 +56896,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &2038226504
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -57390,9 +57105,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &2043004272
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -57895,7 +57607,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_RootOrder
-      value: 258
+      value: 234
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -57903,7 +57615,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 32.500652
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_LocalPosition.z
@@ -58804,9 +58516,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &2077696897
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -59771,9 +59480,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &2096848581
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -59887,9 +59593,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &2102208820
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -60612,9 +60315,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &2119171972
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -60728,9 +60428,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &2120442047
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -60844,9 +60541,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &2121302429
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -61406,9 +61100,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &2139238905
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -61522,9 +61213,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!64 &2146221569
 MeshCollider:
   m_ObjectHideFlags: 0
