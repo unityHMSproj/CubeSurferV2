@@ -22,12 +22,13 @@ public class GameManager : MonoBehaviour
         modelDefaultPos = model.transform.position;
         model.transform.position = new Vector3(Player.transform.position.x, Player.transform.position.y + 1, Player.transform.position.z);
         model.transform.SetParent(Player.transform);
-        Time.timeScale = 0f;
+        StackController.instance.isOver = true;
     }
 
     public void PressStart()
     {
-        Time.timeScale = 1f;
+        StackController.instance.isOver = false;
+
         startmenu.gameObject.SetActive(false);
         gamemenu.gameObject.SetActive(true);
     }

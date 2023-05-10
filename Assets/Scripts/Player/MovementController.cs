@@ -10,7 +10,7 @@ public class MovementController : MonoBehaviour
     [SerializeField]
     private float HorizontalMovementSpeed;
 
-   
+
     public float VerticalMovementSpeed;
 
     [SerializeField]
@@ -19,8 +19,11 @@ public class MovementController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        setVerticalSpeed();
-        setHorizontalSpeed();
+        if (!StackController.instance.isOver)
+        {
+            setVerticalSpeed();
+            setHorizontalSpeed();
+        }
     }
 
     public void setVerticalSpeed()

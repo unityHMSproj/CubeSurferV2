@@ -8,10 +8,11 @@ public class StackController : MonoBehaviour
     [SerializeField] private GameObject NextLevelButton;
     [SerializeField] private GameObject menubutton;
     [SerializeField] private GameObject trailObj;
+    public static StackController instance;
     public List<GameObject> cubelist = new List<GameObject>();
     private GameObject lastCube;
     private RaycastHit hit;
-    private bool isOver;
+    public bool isOver = false;
     public bool isFinished;
     public AudioSource collectSound;
     private keepposition trail;
@@ -23,6 +24,7 @@ public class StackController : MonoBehaviour
 
     void Start()
     {
+        instance = this;
         trailObj.transform.position = new Vector3(trailObj.transform.position.x, (cubelist[cubelist.Count - 1].transform.position.y - 0.1f), trailObj.transform.position.z);
         UpdateLastCube();
     }
@@ -101,6 +103,8 @@ public class StackController : MonoBehaviour
                 {
                     GameOver.GetComponent<Animator>().SetTrigger("isgameOver");
                     RetryButton.GetComponent<Animator>().SetTrigger("isGameOver");
+
+                    transform.GetChild(1).GetComponent<Animator>().enabled = false;
                     GetComponent<MovementController>().VerticalMovementSpeed = 0;
 
                     isOver = true;
@@ -155,7 +159,11 @@ public class StackController : MonoBehaviour
             other.transform.gameObject.GetComponent<Cheese>().collectCheese();
             Destroy(other.transform.gameObject);
         }
+        if (other.transform.name == "finish1")
+        {
+            transform.GetChild(1).GetComponent<Animator>().SetBool("dance", true);
 
+        }
         if (other.transform.name == "finish2")
         {
             if (!isFinished)

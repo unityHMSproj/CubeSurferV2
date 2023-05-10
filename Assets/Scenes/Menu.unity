@@ -2265,29 +2265,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 310781146}
     m_Modifications:
-    - target: {fileID: 4633657298383071468, guid: 1d2973a2846c5da4b885617a67c0a79d, type: 3}
-      propertyPath: m_Color.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4633657298383071468, guid: 1d2973a2846c5da4b885617a67c0a79d, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4633657298383071468, guid: 1d2973a2846c5da4b885617a67c0a79d, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4633657298383071468, guid: 1d2973a2846c5da4b885617a67c0a79d, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4633657298383071474, guid: 1d2973a2846c5da4b885617a67c0a79d, type: 3}
       propertyPath: m_Name
       value: BlackHole
-      objectReference: {fileID: 0}
-    - target: {fileID: 4633657298383071474, guid: 1d2973a2846c5da4b885617a67c0a79d, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4633657298383071475, guid: 1d2973a2846c5da4b885617a67c0a79d, type: 3}
       propertyPath: m_Pivot.x
@@ -2299,7 +2279,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4633657298383071475, guid: 1d2973a2846c5da4b885617a67c0a79d, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4633657298383071475, guid: 1d2973a2846c5da4b885617a67c0a79d, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2324,18 +2304,6 @@ PrefabInstance:
     - target: {fileID: 4633657298383071475, guid: 1d2973a2846c5da4b885617a67c0a79d, type: 3}
       propertyPath: m_SizeDelta.y
       value: 2361.95
-      objectReference: {fileID: 0}
-    - target: {fileID: 4633657298383071475, guid: 1d2973a2846c5da4b885617a67c0a79d, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4633657298383071475, guid: 1d2973a2846c5da4b885617a67c0a79d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4633657298383071475, guid: 1d2973a2846c5da4b885617a67c0a79d, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4633657298383071475, guid: 1d2973a2846c5da4b885617a67c0a79d, type: 3}
       propertyPath: m_LocalPosition.x
