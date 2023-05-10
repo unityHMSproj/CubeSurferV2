@@ -163,7 +163,7 @@ public class StackController : MonoBehaviour
                 finishGame(10);
             }
         }
-        if (other.transform.name == "void")
+        if (other.transform.tag == "void")
         {
             if (!isOver)
             {
