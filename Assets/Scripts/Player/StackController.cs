@@ -15,6 +15,7 @@ public class StackController : MonoBehaviour
     public bool isOver = false;
     public bool isFinished;
     public AudioSource collectSound;
+    public int currentscore = 0;
     private keepposition trail;
 
     [Header("Camera")]
@@ -117,7 +118,7 @@ public class StackController : MonoBehaviour
             {
                 if (!isFinished)
                 {
-                    finishGame(1);
+                    finishGame(currentscore,1);
 
                 }
             }
@@ -125,7 +126,7 @@ public class StackController : MonoBehaviour
             {
                 if (!isFinished)
                 {
-                    finishGame(2);
+                    finishGame(currentscore,2);
 
                 }
             }
@@ -133,14 +134,14 @@ public class StackController : MonoBehaviour
             {
                 if (!isFinished)
                 {
-                    finishGame(4);
+                    finishGame(currentscore,4);
                 }
             }
             else if (hit.transform.tag == "platformFinish6x")
             {
                 if (!isFinished)
                 {
-                    finishGame(6);
+                    finishGame(currentscore,6);
 
                 }
             }
@@ -153,22 +154,23 @@ public class StackController : MonoBehaviour
     private void OnCollisionEnter(Collision other)
     {
 
-        if (other.transform.tag == "cheese")
+        if (other.transform.tag == "coin")
         {
+            currentscore++;
             collectSound.Play();
             other.transform.gameObject.GetComponent<Cheese>().collectCheese();
             Destroy(other.transform.gameObject);
         }
         if (other.transform.name == "finish1")
         {
-            transform.GetChild(1).GetComponent<Animator>().SetBool("dance", true);
+            // transform.GetChild(1).GetComponent<Animator>().SetBool("dance", true);
 
         }
         if (other.transform.name == "finish2")
         {
             if (!isFinished)
             {
-                finishGame(10);
+                finishGame(currentscore,10);
             }
         }
         if (other.transform.tag == "void")
@@ -195,12 +197,12 @@ public class StackController : MonoBehaviour
         cam.GetComponent<CameraFollow>().finished = true;
         menubutton.gameObject.SetActive(true);
     }
-    public void finishGame(int multiplier)
+    public void finishGame(int currentscore, int multiplier)
     {
         GetComponent<MovementController>().VerticalMovementSpeed = 0;
         NextLevelButton.GetComponent<Animator>().SetTrigger("levelFinished");
         cam.GetComponent<CameraFollow>().finished = true;
-        PlayerPrefs.SetInt("cheese", PlayerPrefs.GetInt("cheese") * multiplier);
+        PlayerPrefs.SetInt("cheese", PlayerPrefs.GetInt("cheese") + currentscore * multiplier);
         isFinished = true;
     }
 }

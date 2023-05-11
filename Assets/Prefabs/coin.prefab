@@ -11,12 +11,11 @@ GameObject:
   - component: {fileID: 7815863428788850586}
   - component: {fileID: 7815863428787556282}
   - component: {fileID: 7815863428786425210}
-  - component: {fileID: 7815863429370073102}
-  - component: {fileID: 7815863429370073101}
   - component: {fileID: 6497980108898089810}
-  m_Layer: 7
-  m_Name: cheese
-  m_TagString: cheese
+  - component: {fileID: 5439220676922250436}
+  m_Layer: 0
+  m_Name: coin
+  m_TagString: coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84,35 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &7815863429370073102
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7815863428788687802}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: a65bc41f54f5afb478ec22c22d371692, type: 3}
---- !u!114 &7815863429370073101
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7815863428788687802}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 1
-  rotateSpeedZ: 0
 --- !u!114 &6497980108898089810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125,6 +95,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a5e09955fac14f8a3cdbed557833f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0
-  rotateSpeedY: 0
-  rotateSpeedZ: 0.5
+--- !u!64 &5439220676922250436
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7815863428788687802}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}

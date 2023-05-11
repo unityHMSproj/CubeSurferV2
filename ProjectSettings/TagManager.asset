@@ -6,7 +6,6 @@ TagManager:
   tags:
   - obstacle
   - void
-  - cheese
   - finishStairs
   - platformFinish1x
   - platformFinish2x
@@ -15,6 +14,7 @@ TagManager:
   - platformFinish10x
   - locked
   - open
+  - coin
   layers:
   - Default
   - TransparentFX
@@ -23,7 +23,7 @@ TagManager:
   - Water
   - UI
   - finish
-  - cheese
+  - 
   - 
   - 
   - 

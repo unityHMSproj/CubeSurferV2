@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin
       objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
+      objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -313,7 +317,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:
@@ -705,7 +709,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:
@@ -736,6 +740,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -862,7 +870,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (53)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -1127,7 +1135,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (33)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -1140,6 +1148,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -1266,7 +1278,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (52)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -2486,6 +2498,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin
       objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
+      objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
       value: 45
@@ -2665,7 +2681,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:
@@ -2917,7 +2933,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:
@@ -3435,6 +3451,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin
       objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
+      objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
       value: 57
@@ -3706,6 +3726,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -4039,6 +4063,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin
       objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
+      objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
       value: 50
@@ -4230,6 +4258,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -4635,6 +4667,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -5063,6 +5099,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -5762,6 +5802,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -6876,7 +6920,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (18)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -7179,6 +7223,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin
       objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
+      objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -7303,7 +7351,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (19)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -7335,7 +7383,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:
@@ -7645,6 +7693,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -8012,7 +8064,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (44)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -8039,7 +8091,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:
@@ -8867,6 +8919,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin
       objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
+      objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
       value: 67
@@ -9046,7 +9102,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:
@@ -9324,7 +9380,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:
@@ -9792,7 +9848,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (34)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -9805,6 +9861,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -10161,6 +10221,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin
       objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
+      objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -10323,6 +10387,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin
       objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
+      objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
       value: 48
@@ -10387,6 +10455,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -10455,6 +10527,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin
       objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
+      objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
       value: 42
@@ -10519,6 +10595,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -10587,6 +10667,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin
       objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
+      objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
       value: 53
@@ -10651,6 +10735,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -10937,7 +11025,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (30)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -11072,7 +11160,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (45)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -11099,7 +11187,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:
@@ -11694,7 +11782,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:
@@ -12124,6 +12212,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -13069,6 +13161,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin
       objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
+      objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -13133,6 +13229,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -13355,7 +13455,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (41)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -13382,7 +13482,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:
@@ -13648,6 +13748,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -14004,6 +14108,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin
       objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
+      objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -14181,6 +14289,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin
       objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
+      objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -14341,6 +14457,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -14789,6 +14909,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin
       objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
+      objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
       value: 56
@@ -14872,7 +14996,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:
@@ -15578,7 +15702,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (28)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -15610,7 +15734,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:
@@ -16580,6 +16704,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin
       objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
+      objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -16932,6 +17060,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -17448,6 +17580,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -18351,7 +18487,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (25)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -18383,7 +18519,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:
@@ -18550,6 +18686,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin
       objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
+      objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -18614,6 +18754,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -18740,7 +18884,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (27)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -18772,7 +18916,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:
@@ -19091,6 +19235,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -19484,6 +19632,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -20297,7 +20449,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (23)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -20329,7 +20481,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:
@@ -20883,7 +21035,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (34)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -20956,7 +21108,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (35)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -21236,7 +21388,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (29)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -21539,6 +21691,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin
       objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
+      objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
       value: 47
@@ -21832,7 +21988,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:
@@ -22162,6 +22318,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -22518,6 +22678,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin
       objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
+      objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -22582,6 +22746,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -23145,6 +23313,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin
       objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
+      objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -23537,6 +23709,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin
       objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
+      objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
       value: 60
@@ -23904,6 +24080,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -24714,7 +24894,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (20)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -24979,7 +25159,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (37)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -25088,6 +25268,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -25284,7 +25468,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:
@@ -25375,7 +25559,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (43)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -25402,7 +25586,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:
@@ -25687,7 +25871,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:
@@ -25718,6 +25902,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -25784,6 +25972,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -26061,7 +26253,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:
@@ -27865,6 +28057,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin
       objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
+      objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -27989,7 +28185,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (39)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -28016,7 +28212,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:
@@ -28112,7 +28308,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (35)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -28281,7 +28477,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (26)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -28313,7 +28509,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:
@@ -28344,6 +28540,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -28410,6 +28610,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -28572,6 +28776,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -28794,7 +29002,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (54)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -28807,6 +29015,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -29446,7 +29658,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:
@@ -29477,6 +29689,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -30151,6 +30367,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -31083,6 +31303,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin
       objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
+      objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -31245,6 +31469,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin
       objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
+      objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -31311,6 +31539,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin
       objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
+      objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
       value: 36
@@ -31375,6 +31607,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -31693,7 +31929,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (21)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -32415,7 +32651,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (46)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -32442,7 +32678,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:
@@ -32689,7 +32925,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:
@@ -32955,6 +33191,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin
       objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
+      objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -33019,6 +33259,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -33963,6 +34207,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin
       objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
+      objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -34160,6 +34408,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -35237,7 +35489,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (55)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -35383,7 +35635,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (48)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -35410,7 +35662,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:
@@ -35794,7 +36046,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (32)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -36135,6 +36387,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin
       objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
+      objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
       value: 64
@@ -36213,7 +36469,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:
@@ -36268,7 +36524,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:
@@ -36697,7 +36953,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (36)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -37266,6 +37522,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin
       objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
+      objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
       value: 34
@@ -37445,7 +37705,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:
@@ -37824,7 +38084,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (51)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -37851,7 +38111,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:
@@ -38321,7 +38581,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:
@@ -40370,7 +40630,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (31)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -40553,7 +40813,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (38)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -40626,7 +40886,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (50)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -40653,7 +40913,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:
@@ -40883,6 +41143,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin
       objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
+      objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -41043,6 +41307,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -42868,6 +43136,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin
       objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
+      objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
       value: 39
@@ -43043,6 +43315,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
@@ -43634,7 +43910,7 @@ MonoBehaviour:
   finishLM:
     serializedVersion: 2
     m_Bits: 64
-  stackControllerobj: {fileID: 0}
+  stackControllerobj: {fileID: 283911914}
   Last: 0
   collectSound: {fileID: 340062191}
   popSoundList:

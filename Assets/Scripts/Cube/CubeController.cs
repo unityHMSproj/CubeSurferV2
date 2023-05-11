@@ -89,7 +89,7 @@ public class CubeController : MonoBehaviour
                 {
                     if (!stackControllerobj.GetComponent<StackController>().isFinished)
                     {
-                        stackControllerobj.GetComponent<StackController>().finishGame(10);
+                        stackControllerobj.GetComponent<StackController>().finishGame(StackController.instance.currentscore, 10);
                     }
                 }
                 if (hit.transform.tag == "void")
@@ -107,8 +107,9 @@ public class CubeController : MonoBehaviour
     {
         if (Last)
         {
-            if (other.transform.tag == "cheese")
+            if (other.transform.tag == "coin")
             {
+                StackController.instance.currentscore++;
                 collectSound.Play();
                 other.transform.gameObject.GetComponent<Cheese>().collectCheese();
                 Destroy(other.transform.gameObject);

@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         int charId = characterSlide.instance.id;
-
+        Time.timeScale = 0;
         model = GameObject.Find(charId.ToString());
         modelDefaultPos = model.transform.position;
         model.transform.position = new Vector3(Player.transform.position.x, Player.transform.position.y + 1, Player.transform.position.z);
@@ -28,6 +28,7 @@ public class GameManager : MonoBehaviour
     public void PressStart()
     {
         StackController.instance.isOver = false;
+        Time.timeScale = 1;
 
         startmenu.gameObject.SetActive(false);
         gamemenu.gameObject.SetActive(true);

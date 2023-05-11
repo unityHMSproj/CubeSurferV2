@@ -958,7 +958,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -970,7 +974,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2830,7 +2834,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -2842,7 +2850,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2949,6 +2957,101 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &200014437
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 200014438}
+  - component: {fileID: 200014441}
+  - component: {fileID: 200014440}
+  - component: {fileID: 200014439}
+  m_Layer: 3
+  m_Name: void (2)
+  m_TagString: void
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &200014438
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200014437}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.33, y: 30.5, z: -590}
+  m_LocalScale: {x: 3.3622856, y: 1.0763153, z: 13.682495}
+  m_Children: []
+  m_Father: {fileID: 364515794}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &200014439
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200014437}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &200014440
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200014437}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5363199a614d953489db597033dbbafa, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &200014441
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200014437}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &205732808
 GameObject:
   m_ObjectHideFlags: 0
@@ -3276,7 +3379,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -3288,7 +3395,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3725,7 +3832,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -3737,7 +3848,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3965,7 +4076,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (4)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -4028,7 +4139,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -4040,7 +4155,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4208,7 +4323,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -4220,7 +4339,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5021,9 +5140,9 @@ Transform:
   m_Children:
   - {fileID: 450641065}
   - {fileID: 2130178051}
-  - {fileID: 596318470}
-  - {fileID: 1812569532}
   - {fileID: 527122559}
+  - {fileID: 200014438}
+  - {fileID: 446085207}
   m_Father: {fileID: 825753744}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6188,6 +6307,101 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &446085206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 446085207}
+  - component: {fileID: 446085210}
+  - component: {fileID: 446085209}
+  - component: {fileID: 446085208}
+  m_Layer: 3
+  m_Name: void (3)
+  m_TagString: void
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &446085207
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446085206}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.33, y: 30.5, z: -617.5}
+  m_LocalScale: {x: 3.3622856, y: 1.0763153, z: 13.682495}
+  m_Children: []
+  m_Father: {fileID: 364515794}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &446085208
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446085206}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &446085209
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446085206}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5363199a614d953489db597033dbbafa, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &446085210
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446085206}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &448001422
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6354,7 +6568,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -6366,7 +6584,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6853,7 +7071,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -6865,7 +7087,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6915,7 +7137,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -6927,7 +7153,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6977,7 +7203,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -6989,7 +7219,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7465,7 +7695,7 @@ Transform:
   m_LocalScale: {x: 3.3622856, y: 1.0763153, z: 13.682495}
   m_Children: []
   m_Father: {fileID: 364515794}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &527122560
 BoxCollider:
@@ -7898,8 +8128,8 @@ GameObject:
   m_Component:
   - component: {fileID: 565348165}
   m_Layer: 0
-  m_Name: Cheese
-  m_TagString: Untagged
+  m_Name: coin
+  m_TagString: coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7912,7 +8142,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 565348164}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.4, y: 31.3, z: -109.95061}
+  m_LocalPosition: {x: -4.4, y: 31, z: -109.95061}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1303050156}
@@ -8349,7 +8579,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -8361,7 +8595,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8597,101 +8831,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02, y: 0.019999996, z: 0.019999996}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &596318466
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 596318470}
-  - component: {fileID: 596318469}
-  - component: {fileID: 596318468}
-  - component: {fileID: 596318467}
-  m_Layer: 3
-  m_Name: void
-  m_TagString: void
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!65 &596318467
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 596318466}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &596318468
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 596318466}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 5363199a614d953489db597033dbbafa, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &596318469
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 596318466}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &596318470
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 596318466}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.91, y: 30.5, z: -615.38}
-  m_LocalScale: {x: 4.4215, y: 1.0763153, z: 21.506594}
-  m_Children: []
-  m_Father: {fileID: 364515794}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &599218553
 GameObject:
   m_ObjectHideFlags: 0
@@ -8939,7 +9078,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -8951,7 +9094,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9265,7 +9408,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -9277,7 +9424,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9591,7 +9738,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -9603,7 +9754,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9653,7 +9804,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -9665,7 +9820,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9715,7 +9870,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -9727,7 +9886,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11777,7 +11936,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -11789,7 +11952,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -12148,7 +12311,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -12160,7 +12327,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13386,7 +13553,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -13398,7 +13569,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13571,7 +13742,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -13583,7 +13758,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13827,7 +14002,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -13839,7 +14018,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13889,7 +14068,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -13901,7 +14084,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13951,7 +14134,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -13963,7 +14150,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14013,7 +14200,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -14025,7 +14216,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -15862,7 +16053,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -15874,7 +16069,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -16097,7 +16292,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -16109,7 +16308,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -16770,7 +16969,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -16782,7 +16985,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -16892,7 +17095,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (1)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -17155,7 +17358,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -17167,7 +17374,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17738,7 +17945,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -17750,7 +17961,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17918,7 +18129,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -17930,7 +18145,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -18070,7 +18285,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -18082,7 +18301,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -19212,7 +19431,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -19224,7 +19447,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -19490,7 +19713,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (2)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -19957,7 +20180,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -19969,7 +20196,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -21412,7 +21639,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -21424,7 +21655,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -21692,7 +21923,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -21704,7 +21939,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -22033,7 +22268,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -22045,7 +22284,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -22685,101 +22924,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02, y: 0.019999996, z: 0.019999996}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &1812569531
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1812569532}
-  - component: {fileID: 1812569535}
-  - component: {fileID: 1812569534}
-  - component: {fileID: 1812569533}
-  m_Layer: 3
-  m_Name: void
-  m_TagString: void
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1812569532
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1812569531}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.36, y: 30.5, z: -534.00006}
-  m_LocalScale: {x: 3.3622856, y: 1.0763153, z: 13.682495}
-  m_Children: []
-  m_Father: {fileID: 364515794}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1812569533
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1812569531}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1812569534
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1812569531}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 5363199a614d953489db597033dbbafa, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1812569535
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1812569531}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1817536181
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22789,7 +22933,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -22801,7 +22949,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -23949,7 +24097,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -23961,7 +24113,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -24195,7 +24347,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -24207,7 +24363,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -24368,7 +24524,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -24380,7 +24540,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -24430,7 +24590,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -24442,7 +24606,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -25410,7 +25574,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -25422,7 +25590,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -25808,7 +25976,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -25820,7 +25992,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -26725,7 +26897,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 803d9bdc3a162404d812045dfcc46990, type: 2}
     - target: {fileID: 919132149155446097, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
       propertyPath: m_Name
-      value: stackCube (3)
+      value: stackCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4659b920622600a4cbd6fa0787074d05, type: 3}
@@ -27314,7 +27486,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -27326,7 +27502,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -27376,7 +27552,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -27388,7 +27568,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -27438,7 +27618,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -27450,7 +27634,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -27500,7 +27684,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -27512,7 +27700,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -27680,7 +27868,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -27692,7 +27884,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
@@ -28355,7 +28547,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_Name
-      value: cheese
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815863428788687802, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
+      propertyPath: m_TagString
+      value: coin
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_RootOrder
@@ -28367,7 +28563,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.2000017
       objectReference: {fileID: 0}
     - target: {fileID: 7815863428788850586, guid: 0e02a0e44c5898141b7f82b37e466e78, type: 3}
       propertyPath: m_LocalPosition.z
