@@ -1,5 +1,0 @@
-<linker>
-   <assembly fullname="HuaweiMobileServices"> // the name of the assembly
-	<type fullname="HuaweiMobileServices.*" preserve="all"/>
-   </assembly>
-</linker>
