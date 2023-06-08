@@ -5,9 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Huawei/Demos/Account/AccountDemo.unity
-    guid: 1dbccd04ace8d724fb56d687a0118ac0
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 8a59b6833532109449062a69967a2043

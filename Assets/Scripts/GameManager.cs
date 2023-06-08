@@ -36,6 +36,8 @@ public class GameManager : MonoBehaviour
 
     public void RestartGame()
     {
+        admanager.Instance.ShowInterstitialAd();
+
         loader.LoadScene("restart");
 
     }
@@ -43,16 +45,20 @@ public class GameManager : MonoBehaviour
     public void PassLevel1()
 
     {
+        admanager.Instance.ShowInterstitialAd();
         loader.LoadScene("next");
     }
     public void PassLevel2()
     {
+        admanager.Instance.ShowInterstitialAd();
+
         loader.LoadScene("previous");
 
     }
 
     public void mainmenu()
     {
+        
         Time.timeScale = 1;
         loader.LoadScene("mainmenu");
 

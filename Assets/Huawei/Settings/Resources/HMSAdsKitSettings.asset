@@ -13,5 +13,27 @@ MonoBehaviour:
   m_Name: HMSAdsKitSettings
   m_EditorClassIdentifier: 
   settings:
-    _keys: []
-    _values: []
+    _keys:
+    - UseTestAds
+    - EnableBannerAd
+    - ShowBannerOnLoad
+    - BannerRefreshInterval
+    - EnableInterstitialAd
+    - EnableSplashAd
+    - BannerAdPositionType
+    - BannerAdID
+    - EnableRewardedAd
+    - RewardedAdID
+    - InterstitialAdID
+    _values:
+    - False
+    - True
+    - True
+    - 30
+    - True
+    - False
+    - POSITION_TOP
+    - k1gs7c0huu
+    - True
+    - c4gqoh1hwa
+    - x4zgkxz7eq

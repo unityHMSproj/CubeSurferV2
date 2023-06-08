@@ -24,7 +24,7 @@ namespace HmsPlugin
                 { AccountToggleEditor.AccountKitEnabled,        new [] { "com.huawei.hms:hwid:6.9.0.301" } },
                 { AdsToggleEditor.AdsKitEnabled,                new []
                     {
-                        "com.huawei.hms:ads-lite:13.4.61.300",
+                        "com.huawei.hms:ads-prime:3.4.61.300",
                         "com.huawei.hms:ads-consent:3.4.61.300",
                         "com.huawei.hms:ads-identifier:3.4.58.301",
                         "com.huawei.hms:ads-installreferrer:3.4.58.301"

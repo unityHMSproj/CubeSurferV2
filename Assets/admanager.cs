@@ -1,16 +1,16 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using UnityEngine;
 using HmsPlugin;
 using HuaweiMobileServices.Ads;
 
-public class AdsDemoManager : MonoBehaviour
+public class admanager : MonoBehaviour
 {
     //private Toggle testAdStatusToggle;
-    private readonly string TAG = "[HMS] AdsDemoManager: ";
+    private readonly string TAG = "[HMS] admanager: ";
 
     #region Singleton
 
-    public static AdsDemoManager Instance { get; private set; }
+    public static admanager Instance { get; private set; }
     private void Singleton()
     {
         if (Instance != null && Instance != this)
@@ -41,7 +41,7 @@ public class AdsDemoManager : MonoBehaviour
 
         //testAdStatusToggle = GameObject.FindGameObjectWithTag("Toggle").GetComponent<Toggle>();
         //testAdStatusToggle.isOn = HMSAdsKitSettings.Instance.Settings.GetBool(HMSAdsKitSettings.UseTestAds);
-        
+
         #region SetNonPersonalizedAd , SetRequestLocation
 
         var builder = HwAds.RequestOptions.ToBuilder();
@@ -117,7 +117,8 @@ public class AdsDemoManager : MonoBehaviour
 
     public void OnRewarded(Reward reward)
     {
-        Debug.Log($"{TAG}rewarded!");
+        Debug.Log($"{TAG}rewarded! {reward}");
+        characterSlide.instance.unlock();
     }
 
     public void OnInterstitialAdClosed()
@@ -127,9 +128,10 @@ public class AdsDemoManager : MonoBehaviour
 
     public void SetTestAdStatus()
     {
-       // HMSAdsKitManager.Instance.SetTestAdStatus(testAdStatusToggle.isOn);
+        // HMSAdsKitManager.Instance.SetTestAdStatus(testAdStatusToggle.isOn);
         HMSAdsKitManager.Instance.SetTestAdStatus(HMSAdsKitSettings.Instance.Settings.GetBool(HMSAdsKitSettings.UseTestAds));
         HMSAdsKitManager.Instance.DestroyBannerAd();
         HMSAdsKitManager.Instance.LoadAllAds();
     }
+
 }

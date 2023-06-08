@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
+
 public class GameManagerMenu : MonoBehaviour
 {
     public sceneLoader loader;
@@ -10,10 +11,11 @@ public class GameManagerMenu : MonoBehaviour
     private void Start()
     {
         setButtonAnimations();
+
     }
     public void startGame()
     {
-
+        
         loader.LoadScene("next");
 
     }
